@@ -13,7 +13,7 @@ body{
 
 .container{
     background-color: white;
-    height:120px;
+    height:150px;
     width: 400px;
     padding-top: 300px;
     position: relative;
@@ -29,6 +29,7 @@ h1{
 }
 
 p{
+    margin-top: 10px;
     text-align: center;
 }
 
