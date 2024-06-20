@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #34db7a;
+    background-color: #5334db;
   }
   
   .container {
@@ -31,14 +31,14 @@
   }
   
   #qr-header h1 {
-    font-size: 1.8rem;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
   }
   
   #qr-header p {
     color: #444;
-    font-size: 0.9rem;
+    font-size: 15px;
   }
   
   .container #qr-form {
@@ -61,7 +61,7 @@
   }
   
   #qr-form button {
-    background-color: #086824;
+    background-color: #5334db;
     margin-top: 20px;
     color: #fff;
     font-size: 1.2rem;
@@ -91,3 +91,12 @@
     pointer-events: auto;
     transition: 0.5s;
   }
+
+
+
+  /* telefone */
+  @media screen and (max-width: 600px) {
+    .container{
+        width: 350px;
+    }
+}
