@@ -92,7 +92,11 @@
     transition: 0.5s;
   }
 
-
+p{
+    text-align: center;
+    color: #070707d5;
+    margin-top: 6px;
+}
 
   /* telefone */
   @media screen and (max-width: 600px) {

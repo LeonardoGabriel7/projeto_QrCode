@@ -18,15 +18,15 @@ function gerarQrCode() {
   })
 }
 
-//erro aqui
+
 qrCodeBtn.addEventListener("click", () => {
     gerarQrCode();
   });;
 
 //Limpar Qr Code
 qrCodeInput.addEventListener("keyup", () => {
-    if(!qrCodeInputValue){
-        container.classList.add.remove("active")
+    if(!qrCodeInput.value){
+        container.classList.remove("active")
     qrCodeBtn.innerText = "Gerar Qr code"
     }
 })
